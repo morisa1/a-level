@@ -1,0 +1,39 @@
+/* 1 */
+
+.title {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  padding: 5px 10px 15px 15px;
+  margin: 10px 15px 10px 15px;
+  border: 5px solid green;
+  border-style: solid dashed none;
+}
+
+/* 2 */
+
+.clearfix:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.block {
+  margin: 10px;
+  text-align: justify;
+  width: 600px;
+}
+
+.logo1 {
+  float: left;
+  margin: 0 20px 10px 0;
+  width: 200px;
+}
+
+.logo2 {
+  float: right;
+  margin: 20px 0 20px 20px;
+  width: 150px;
+}
+
+/* 3 */

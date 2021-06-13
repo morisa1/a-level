@@ -1,0 +1,67 @@
+/* 04 */
+/* 1 */
+
+ul {
+  list-style: none;
+}
+
+li:first-child a {
+  color: green;
+}
+
+li {
+  font-size: 18px;
+}
+
+li:nth-child(even) {
+  font-size: 20px;
+}
+
+li:nth-child(3n + 1) {
+  background-color: yellow;
+}
+
+a {
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #f00;
+}
+
+li::before {
+  content: "-";
+}
+
+/* 2 */
+
+h3:first-of-type {
+  color: pink;
+}
+
+p:nth-of-type(2) {
+  color: grey;
+}
+
+div p:first-child {
+  color: red;
+}
+
+p:nth-last-of-type(2) {
+  color: green;
+}
+
+p:last-of-type {
+  color: yellow;
+}
+
+/* 3 */
+
+body {
+  font-size: 24px;
+}
+
+h3,
+p {
+  font-size: 0.75em;
+}

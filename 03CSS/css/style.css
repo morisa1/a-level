@@ -1,0 +1,49 @@
+/* 1 */
+
+blockquote {
+  color: green;
+}
+
+/* 2 */
+
+a[href^="https"] {
+  color: #f00;
+}
+
+ul ul li:first-child a {
+  color: #ff8d00;
+}
+
+ul + p {
+  font-size: 26px;
+}
+
+a[title] {
+  border: 1px solid #067b09;
+}
+
+/* 3 */
+
+h3:first-child {
+  color: pink;
+}
+
+#greycol {
+  color: grey;
+}
+
+.text-box div p {
+  color: red;
+}
+
+h3[title] {
+  color: blue;
+}
+
+h3[title] + p {
+  color: green;
+}
+
+.yellow {
+  color: yellow;
+}

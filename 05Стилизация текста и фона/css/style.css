@@ -1,0 +1,46 @@
+/* 1 */
+
+p {
+  font-size: 20px;
+  line-height: 25px;
+  text-indent: 40px;
+  letter-spacing: 1px;
+  font-family: Arial, sans-serif;
+  word-spacing: 5px;
+}
+
+/* 2 */
+
+.bg-box {
+  width: 1024px;
+  height: 680px;
+  background-color: green;
+  background-image: url(https://img2.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.jpg),
+    url(https://www.freeiconspng.com/uploads/grass-png-images-pictures-transparent-28.png),
+    url(https://www.freeiconspng.com/uploads/lamp-png-0.png),
+    url(https://vignette.wikia.nocookie.net/mashaandthebear/images/e/e0/%D0%81%D0%B6%D0%B8%D0%BA.png/revision/latest?cb=20180209130328&path-prefix=ru),
+    url(/img/пончик.png);
+  background-repeat: no-repeat, repeat-x, repeat-x, repeat-y, repeat-y;
+  background-position: center center, bottom left, top left, top left, top right;
+  background-size: 60%, 22%, 5%, 4%, 4%;
+  border: 1px solid red;
+}
+
+/* 3 */
+
+div[class^="box"] {
+  width: 100px;
+  height: 100px;
+}
+
+.box1 {
+  background: repeating-linear-gradient(to top, green, green 10px, #fff 10px, #fff 20px);
+}
+
+.box2 {
+  background: repeating-linear-gradient(to top left, #000, #000 30px, grey 30px, grey 110px);
+}
+
+.box3 {
+  background: radial-gradient(circle, red 15px, #000 15px);
+}
