@@ -1,0 +1,97 @@
+/* 2 */
+
+h1 {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  z-index: 2;
+}
+
+h2 {
+  position: relative;
+  left: 20px;
+  bottom: 30px;
+}
+
+h3 {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+
+/* 1 */
+.block {
+  position: relative;
+  margin: 20px;
+}
+
+.red,
+.blue,
+.green {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+}
+
+.red {
+  top: 20px;
+  left: 20px;
+  background-color: #ff8888;
+}
+
+.blue {
+  z-index: 1;
+  top: 80px;
+  left: 80px;
+  background-color: #7e8aeb;
+}
+
+.green {
+  top: 140px;
+  left: 140px;
+  background-color: #4def99;
+}
+
+/* 3 */
+
+.box {
+  background-color: #0d5825;
+  height: 600px;
+  margin: 300px 0 0;
+  width: 600px;
+  position: relative;
+}
+
+.quote {
+  color: #fff;
+  font-size: 25px;
+  margin: 0;
+  padding: 20px 0 0;
+  text-align: center;
+}
+
+.cards {
+  position: absolute;
+  transition: 0.5s top;
+  width: 150px;
+  top: 50%;
+}
+
+.cards1 {
+  left: 42%;
+  transform: translate(-50%, -50%) rotate(-25deg);
+}
+
+.cards2 {
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+.cards3 {
+  left: 58%;
+  transform: translate(-50%, -50%) rotate(10deg);
+}
+
+.cards:hover {
+  top: 45%;
+}
