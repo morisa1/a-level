@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset,
+form {
+  border-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+input[type='file'],
+input[type='password'],
+input[type='submit'],
+input[type='text'],
+textarea {
+  -webkit-appearance: none;
+}
+
+input[type='submit'],
+input[type='text'],
+textarea {
+  -webkit-border-radius: 0;
+}
+
+button,
+input[type='image'] {
+  border: none;
+  padding: 0;
+}

@@ -1,0 +1,178 @@
+body {
+  font-family: 'Dosis', sans-serif;
+}
+
+.wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 5px solid #97b621;
+  position: relative;
+}
+
+.logo__link {
+  display: inline-block;
+}
+
+.nav-opener {
+  display: none;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__item {
+  margin: 0 40px 0 0;
+}
+
+.nav__item:last-child {
+  margin: 0;
+}
+
+.nav__link {
+  color: #7ea2b3;
+  font: bold 40px/1.25 'Oswald', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.3s color;
+}
+
+.nav__link--active {
+  color: #97b621;
+}
+
+.nav__link:hover {
+  color: #97b621;
+}
+
+.content {
+  padding: 100px 0 50px;
+}
+
+.content__title,
+.aside__title {
+  color: #7ea2b3;
+  font: bold 40px/1.25 'Oswald', sans-serif;
+  margin: 0 0 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.content__card {
+  margin: 0 0 40px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card__block {
+  width: 50%;
+}
+
+.card__img {
+  height: auto;
+  width: 100%;
+}
+
+.card__info {
+  background-color: #f6fcff;
+  margin: 40px 0 0 -80px;
+  padding: 65px 100px 70px 80px;
+  box-shadow: -15px 15px 30px -20px #7ea2b3;
+}
+
+.card--reverse .card__info {
+  margin: 40px -80px 0 0;
+  box-shadow: 15px 15px 30px -20px #7ea2b3;
+}
+
+.card--reverse .block {
+  order: -1;
+}
+
+.info__title,
+.box-aside__title {
+  color: #7ea2b3;
+  font: bold 24px/1.25 'Dosis', sans-serif;
+  margin: 0 0 25px;
+}
+
+.info__text {
+  color: #6d6d6d;
+  font: 18px/1.33 'Dosis', sans-serif;
+  margin: 0 0 25px;
+}
+
+.button {
+  cursor: pointer;
+  border-radius: 30px;
+  text-transform: uppercase;
+  transition: 0.3s background-color;
+}
+
+.button:hover {
+  background-color: #89a51a;
+}
+
+.info__button {
+  color: #fff;
+  font: 16px/1.37 'Oswald', sans-serif;
+  background-color: #97b621;
+  padding: 15px 40px;
+}
+
+.content__button {
+  text-align: center;
+}
+
+.btn__button {
+  color: #97b621;
+  background-color: #fff;
+  border: 3px solid #97b621;
+  font: 16px/1.37 'Oswald', sans-serif;
+  padding: 15px 40px;
+}
+
+.btn__button:hover {
+  background-color: #edeeeb;
+}
+
+.aside {
+  background-color: #f7f9ee;
+  padding: 45px 0;
+}
+
+.aside__content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aside__block {
+  width: 25%;
+  padding: 15px;
+  text-align: center;
+}
+
+.box-aside__img {
+  margin: 0 0 25px;
+  width: 100%;
+}
+
+.box-aside__button {
+  color: #fff;
+  font: 16px/1.37 'Oswald', sans-serif;
+  background-color: #97b621;
+  padding: 10px 60px;
+}

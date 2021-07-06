@@ -1,0 +1,11 @@
+
+@media (max-width: 768px) {
+	.grid-container {
+
+		grid-template-areas:
+		 "... footer footer"
+		 "aside article nav"		 
+		 "header header header";
+		}
+}
+

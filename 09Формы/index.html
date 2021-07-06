@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Формы.</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <form class="info-form">
+    <fieldset>
+      <legend class="form-title"> Контактная информация</legend>
+      <div class="form-row">
+        <label for="name" class="form-label">Имя *</label>
+        <input id="name" class="form-input" type="text" name="name" required>
+      </div>
+      <div class="form-row">
+        <label for="email" class="form-label">E-mail</label>
+        <input id="email" class="form-input" type="email" name="email">
+      </div>
+      <div class="form-row">
+        <label for="tel" class="form-label">Телефон</label>
+        <input id="tel" class="form-input" type="tel" name="tel">
+      </div>
+
+      <div class="form-row">
+        <select class="select">
+          <option value="Австрия">Австрия</option>
+          <option value="Бельгия">Бельгия</option>
+          <option value="Германия">Германия</option>
+          <option value="Турция">Турция</option>
+          <option value="Украина">Украина</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <textarea class="form-textarea" name="textarea" id="textarea" cols="15" rows="5"></textarea>
+      </div>
+
+      <div class="form-row">
+        <label class="container">
+          <input type="checkbox" checked="checked">
+        </label>
+        <label class="container">
+          <input type="checkbox">
+        </label>
+        <label class="container">
+          <input type="checkbox">
+        </label>
+      </div>
+
+    </fieldset>
+    <button class="button" type="submit">Отправить</button>
+  </form>
+
+
+
+</body>
+
+</html>

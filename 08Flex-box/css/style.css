@@ -1,0 +1,198 @@
+/* 1 */
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  background-color: #d3b714;
+  padding: 20px 0 30px 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+}
+
+.logo-link {
+  display: inline-block;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+}
+
+.menu-link {
+  color: inherit;
+  margin: 0 14px 0 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: rgb(145, 128, 128);
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.main-container {
+  display: flex;
+  height: 100%;
+}
+
+.content {
+  padding: 35px 30px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.content-text {
+  margin: 0 0 30px;
+}
+
+.title {
+  margin: 0 0 30px;
+}
+
+.sidebar {
+  min-width: 210px;
+  padding: 15px;
+  text-align: center;
+}
+
+.sidebar-left {
+  background-color: #c798b9;
+  order: -1;
+}
+
+.sidebar-right {
+  background-color: #9cb1c7;
+}
+
+.catalog {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #8e8e8e;
+  border-radius: 25px;
+  padding: 15px;
+  margin: 0 0 20px;
+  width: 32%;
+}
+
+.card:nth-last-child(-n + 3) {
+  margin: 0;
+}
+
+.card-content {
+  flex-grow: 1;
+}
+
+.card-link {
+  display: inline-block;
+  margin: 0 0 25px;
+}
+
+.card-item-img {
+  background-image: url(https://w7.pngwing.com/pngs/432/564/png-transparent-computer-icons-nature-natural-environment-hills-miscellaneous-company-landscape.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 15px solid #c7b7b7;
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin: 0 0 25px;
+}
+
+.card-text {
+  margin: 0 0 25px;
+}
+
+.card-buttom {
+  background-color: #685174;
+  border-radius: 25px;
+  color: #fff;
+  padding: 5px 15px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.card-buttom:hover {
+  background-color: #786681;
+}
+
+.footer {
+  background-color: #84e984;
+  text-align: center;
+  padding: 15px;
+}
+/* 2 */
+
+/* 3 */
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #000;
+  border-radius: 20px 20px 0 0;
+  height: 100px;
+  overflow: hidden;
+  width: 400px;
+}
+
+.item {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.item:nth-child(1) {
+  background-color: #fd644d;
+  flex-basis: 50%;
+  order: 0;
+}
+
+.item:nth-child(2) {
+  background-color: #4983b2;
+  order: 3;
+}
+
+.item:nth-child(3) {
+  background-color: #663797;
+  order: 2;
+}
+
+.item:nth-child(4) {
+  background-color: #083c08;
+  order: 4;
+}
+
+.item:nth-child(5) {
+  background-color: #fda429;
+  flex-basis: 50%;
+  order: 1;
+}

@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+}
+
+@media (max-width: 535px) {
+  .box {
+    grid-template-areas:
+      'box4 ... ... ... ... ... ...'
+      '... ... ... ... ... ... ...'
+      '... ... box2 box2 box3 ... ...'
+      '... ... box1 box1 box3 ... ...'
+      '... ... box5 box5 box3 ... ...'
+      '... ... box6 box6 box7 ... ...';
+    grid-template-columns: 3% 3% 1fr 2fr 1.3fr 3% 3%;
+    grid-template-rows: 4% 4% 3fr 3fr 1fr 50px;
+  }
+
+  .content {
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 100px 1.5fr 1fr 100px;
+    grid-template-areas:
+      'header'
+      'icon'
+      'page'
+      'article'
+      'footer';
+  }
+}
